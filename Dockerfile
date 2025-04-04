@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM ubuntu:noble
 
 COPY ./extractor/lib* /lib/
 COPY ./extractor/scemd /bin/syno_extract_system_patch
